@@ -14,6 +14,27 @@ The goal of this end-to-end data analytics project is to act as a Strategic Oper
 * **Data Extraction & Auditing**: Python (Pandas, NumPy, Scikit-Learn)
 * **Business Intelligence & Core Analytics Engine**: Power BI Desktop (Advanced DAX, Power Query)
 * **UI/UX Framework**: Customized Native App Sidebar Layout
+* ## 🚀 Getting Started & Data Replication
+To clone this project, run the local data audit pipeline, or interact with the operational database structure, follow these explicit instructions:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com
+   cd uber-ride-operations-analytics
+   ```
+
+2. **Acquire the Raw Transaction Ledger**:
+   * Due to file size storage constraints, the raw transactional ledger is hosted externally.
+   * Download the base tracking dataset directly from the official [Kaggle Uber Ride Analytics Dataset 2024](https://kaggle.com).
+   
+3. **Configure the Project Root**:
+   * Move the downloaded source CSV into the same root folder on your local machine where your project scripts are stored.
+   * Rename the source CSV file exactly to **`datase.csv`** to mirror the exact loading call on row 5 of the processing pipeline.
+
+4. **Execute the Audit Engine**:
+   * Launch your Jupyter notebook environment and run **`Uber Data Analytics.ipynb`** to process descriptive summaries and execute data quality validations.
+   * Open the **`Personal_Project_Uber_Analysis.pbix`** file inside Power BI Desktop to view the operational dashboards and run dynamic DAX metrics.
+
 
 ---
 
