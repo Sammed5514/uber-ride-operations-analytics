@@ -25,7 +25,7 @@ To clone this project, run the local data audit pipeline, or interact with the o
 
 2. **Acquire the Raw Transaction Ledger**:
    * Due to file size storage constraints, the raw transactional ledger is hosted externally.
-   * Download the base tracking dataset directly from the official [Kaggle Uber Ride Analytics Dataset 2024](https://kaggle.com).
+   * Download the base tracking dataset directly from the official [Kaggle Uber Ride Analytics Dataset 2024]([https://kaggle.com](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard)).
    
 3. **Configure the Project Root**:
    * Move the downloaded source CSV into the same root folder on your local machine where your project scripts are stored.
