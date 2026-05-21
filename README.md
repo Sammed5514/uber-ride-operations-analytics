@@ -58,7 +58,7 @@ print("Direct Ledger Aggregation Share:\n", (rev_dist / rev_dist.sum()) * 100)
 
 ## 📁 Repository Structure
 ```text
-├── data_cleaning_audit.ipynb  # Comprehensive Python verification, descriptive statistics, and logic checks.
-├── Uber_Ride_Analytics.pbix   # Fully configured Power BI file featuring Star Schema modeling, dynamic DAX measures, and app-like UI styling.
+├── Uber Data Analytics.ipynb   # Comprehensive Python verification, descriptive statistics, and logic checks.
+├── Personal_Project_Uber_Analysis.pbix    # Fully configured Power BI file featuring Star Schema modeling, dynamic DAX measures, and app-like UI styling.
 └── dashboard_demo.gif         # 30-second high-resolution interface walk-through demonstrating dynamic filtering states.
 ```
